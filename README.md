@@ -71,6 +71,7 @@ let first = a[0]; // accessing array element
 ```rust
 // variables are immutable by default
 let foo = 5;
+foo = 6; // compilation error
 
 // mutable variables
 let mut bar = 5;
