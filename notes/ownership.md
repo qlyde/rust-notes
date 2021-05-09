@@ -29,6 +29,7 @@ println!("{}, world!", s1); // compilation error: value borrowed after move
 // clone
 let s1 = String::from("hello");
 let s2 = s1.clone(); // deep copy of heap data (expensive)
+// s1 still valid
 
 // if a type implements the Copy trait, an older variable is still usable after assignment
 // cannot implement Copy trait if Drop trait is implemented
