@@ -63,6 +63,6 @@ let first = a[0]; // accessing array element
 
 ```rust
 // String type can be mutated
-let s = String::from("hello"); // :: namespaces the from function under the String type
+let mut s = String::from("hello"); // :: namespaces the from function under the String type
 s.push_str(", world"); // append to a String
 ```
