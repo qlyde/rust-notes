@@ -11,6 +11,7 @@
 
 ```rust
 // integers
+let x = 0; // i32 is default
 let x: i8 = 0; // signed 8-bit integer
 let x: u8 = 0; // unsigned 8-bit integer
 let x: i16 = 0; // signed 16-bit integer
@@ -51,6 +52,18 @@ let c: char = 'ℤ'; // four byte UTF-8
 ### Compound Types
 
 ```rust
+// tuples
+// fixed length
+let tup: (i32, f64, u8) = (500, 6.4, 1);
+let (x, y, z) = tup; // destructuring tuple
+let five_hundred = tup.0; // accessing tuple element
+
+// arrays
+// fixed length, same type
+let a = [1, 2, 3, 4, 5];
+let a: [i32; 5] = [1, 2, 3, 4, 5]; // declaring type and size
+let a = [3; 5]; // [3, 3, 3, 3, 3]
+let first = a[0]; // accessing array element
 ```
 
 ## Variables and Mutability
