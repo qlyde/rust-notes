@@ -58,3 +58,11 @@ let a: [i32; 5] = [1, 2, 3, 4, 5]; // declaring type and size
 let a = [3; 5]; // [3, 3, 3, 3, 3]
 let first = a[0]; // accessing array element
 ```
+
+### String Type
+
+```rust
+// String type can be mutated
+let s = String::from("hello"); // :: namespaces the from function under the String type
+s.push_str(", world"); // append to a String
+```
