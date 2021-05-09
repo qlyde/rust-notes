@@ -23,7 +23,7 @@ let s2 = s1; // called a move
 // s1 no longer valid
 
 // double free error when s1 and s2 go out of scope
-// so s1 is no longer considered valid when copied
+// so s1 is no longer considered valid after move
 println!("{}, world!", s1); // compilation error: value borrowed after move
 
 // clone
