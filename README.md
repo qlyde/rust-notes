@@ -9,3 +9,4 @@ A collection of summary notes I took when reading [The Rust Programming Language
 3. [Functions](notes/functions.md)
 4. [Control Flow](notes/control_flow.md)
 5. [Ownership](notes/ownership.md)
+6. [References and Borrowing](notes/references_and_borrowing.md)
