@@ -26,7 +26,7 @@ let y = {
 // function return values
 // return type declared with ->
 fn five() -> i32 {
-    5
+    5 // last evaluated expression is returned
 }
 
 // return keyword
