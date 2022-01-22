@@ -2,6 +2,8 @@
 
 A collection of summary notes I took when reading [The Rust Programming Language book](https://doc.rust-lang.org/book/).
 
+**Unfinished**
+
 ## Table of Contents
 
 1. [Data Types](notes/data_types.md)
